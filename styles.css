@@ -1,4 +1,53 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 12.5% 12.5% 37.5% 37.5%;
+  border: 2px solid black;
+  height: 100%;
+}
+
+.sidebar{ 
+  grid-column: span 1;
+  grid-row: 1/5 ;
+  border: 2px solid red;
+}
+
+.search-and-icons{
+  grid-column: span 2;
+  grid-row: span 1;
+  border: 2px solid green;
+}
+
+.profile-and-buttons {
+  grid-column: span 2;
+  grid-row: span 1;
+  border: 2px solid purple;
+}
+
+.projects {
+  grid-row: span 2;
+  grid-column: span 1;
+  border: 2px solid orangered;
+}
+
+.messages {
+  grid-row: span 1;
+  grid-column: span 1;
+  border: 2px solid blue;
+}
+
+.news {
+  grid-row: span 1;
+  grid-column: span 1;
+  border: 2px border black;
 }
