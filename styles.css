@@ -19,7 +19,20 @@ body{
 .sidebar{ 
   grid-column: span 1;
   grid-row: 1/5 ;
-  border: 2px solid red;
+  background-color: #022c22;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.option-card{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
 }
 
 .search-and-icons{
