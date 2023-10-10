@@ -74,6 +74,7 @@ body{
   padding-left: 40px;
   padding-right: 40px;
   background-color: #10b981;
+  border-bottom: 4px solid #d1fae5;
 }
 
 .profile-and-buttons .profile {
@@ -94,7 +95,66 @@ body{
 .projects {
   grid-row: span 2;
   grid-column: span 1;
-  border: 2px solid orangered;
+  padding: 20px;
+  background-color: #a7f3d0;
+}
+
+.projects-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.project-card {
+  width: 300px;
+  height: 300px;
+  background-color: #10b981;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.project-card .project-description {
+  background-color: black;
+  opacity: 0.9;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.project-description h4{
+  color: rgba(255, 255, 255, 1);
+}
+
+.project-description p {
+  color: rgba(255, 255, 255, 1);
+}
+
+#calculator {
+  background-image: url(./images/calculator\ image.PNG);
+}
+
+#Etch-A-Sketch {
+  background-image: url(./images/etch-a-sketch.PNG);
+}
+
+#pencil-page{
+  background-image: url(./images/pencil\ page.PNG);
+}
+
+#rock-paper-scissors {
+  background-image: url(./images/rock\ paper\ scissors.PNG);
+}
+
+#sign-up-form {
+  background-image: url(./images/sign\ up\ form.PNG);
+}
+
+#blackjack-app {
+  background-image: url(./images/blackjack\ app.PNG);
 }
 
 .messages {
