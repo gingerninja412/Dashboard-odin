@@ -61,14 +61,34 @@ body{
   outline: none;
 }
 
-.search-and-icons .profile-pic {
+.profile-pic {
   border-radius: 20px;
 }
 
 .profile-and-buttons {
   grid-column: span 2;
   grid-row: span 1;
-  border: 2px solid purple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #10b981;
+}
+
+.profile-and-buttons .profile {
+  display: flex;
+  gap: 40px;
+}
+
+.control-buttons button{
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+  background-color: #a7f3d0;
+  font-size: large;
 }
 
 .projects {
