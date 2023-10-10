@@ -38,7 +38,31 @@ body{
 .search-and-icons{
   grid-column: span 2;
   grid-row: span 1;
-  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #10b981;
+}
+
+.search-and-icons input {
+  flex: 1;
+  border-radius: 20px;
+  height: 40px;
+  padding-left: 20px;
+  font-size: large;
+  background-color: #a7f3d0;
+  border: 0;
+}
+
+.search-and-icons input:focus {
+  outline: none;
+}
+
+.search-and-icons .profile-pic {
+  border-radius: 20px;
 }
 
 .profile-and-buttons {
